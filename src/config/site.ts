@@ -6,12 +6,14 @@ export const siteConfig: SiteConfig = {
   location: "Brazil",
   status: "Available for select engineering opportunities",
   availability: "Open to remote software roles",
-  email: "contact@joaolucasmotta.dev",
+  email: "joaolucass0607@gmail.com",
   socials: {
-    github: "https://github.com/joaolucasmotta",
-    linkedin: "https://linkedin.com/in/joaolucasmotta",
+    github: "https://github.com/ojoaomotta",
+    linkedin: "https://www.linkedin.com/in/joão-lucas-motta-272aa023b/",
+    whatsapp: "https://wa.me/5522999734867",
+    whatsappFormatted: "+55 (22) 99973-4867",
   },
-  siteUrl: "https://joaolucasmotta.dev",
+  siteUrl: "https://github.com/ojoaomotta",
 };
 
 export const navItems: NavItem[] = [

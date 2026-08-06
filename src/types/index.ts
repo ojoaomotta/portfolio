@@ -55,6 +55,8 @@ export interface SiteConfig {
   socials: {
     github: string;
     linkedin: string;
+    whatsapp: string;
+    whatsappFormatted: string;
   };
   siteUrl: string;
 }

@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/common/section-heading";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, Copy, Mail, Send } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/common/icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "@/components/common/icons";
 
 export function ContactSection() {
   const { isCopied, copy } = useCopyToClipboard();
@@ -69,6 +69,13 @@ export function ContactSection() {
               <a href={`mailto:${siteConfig.email}`}>
                 <Send className="mr-2 h-4 w-4" aria-hidden="true" />
                 Send Email
+              </a>
+            </Button>
+
+            <Button variant="outline" size="lg" asChild className="rounded-md">
+              <a href={siteConfig.socials.whatsapp} target="_blank" rel="noopener noreferrer">
+                <WhatsappIcon className="mr-2 h-4 w-4 text-emerald-500" aria-hidden="true" />
+                WhatsApp
               </a>
             </Button>
 
